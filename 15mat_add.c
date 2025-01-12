@@ -22,10 +22,10 @@ int main() {
 
   for (i = 0; i < r; ++i)
     for (j = 0; j < c; ++j) {
-      sum[i][j] = a[i][j] - b[i][j];
+      sum[i][j] = a[i][j] + b[i][j];
     }
 
-  printf("\nSubstraction of two matrices: \n");
+  printf("\naddition of two matrices: \n");
   for (i = 0; i < r; ++i)
     for (j = 0; j < c; ++j) {
       printf("%d   ", sum[i][j]);
